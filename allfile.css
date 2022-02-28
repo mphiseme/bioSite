@@ -4,24 +4,38 @@
 h1{
     font-family: 'Big shoulders Display', cursive;
     text-align: center;
+    color: rgb(235, 232, 232);
+    text-shadow: 1px 1px 3px rgb(226, 21, 21);
 
 }
 h2 {
     text-align: center;
     font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color:rgb(231, 214, 214);
+    font-size:25px;
+    text-shadow: 5px 5px 2px rgb(226, 21, 21);
     
 }
 p{
     font-family:'Playfair Display', serif;
+    color:#e6e6de;
+
+}
+#biosect{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 23px;
 }
 body {
     margin:0;
-    background-color: bisque;
+    background-color: #1749BC;
+    position: relative;
     
 }
-
-#allbody {
-    margin: 0 90px 20px 90px;
+#allbody {   
+    width:100%;    
 }
 .featpic {
     background-color: bisque;
@@ -29,9 +43,7 @@ body {
     background-repeat: no-repeat;    
     background-attachment: fixed;
     background-size:cover;    
-
 }
-
 #hmfeatpic {
     background-image: url('skydiving3.JPG');
     padding: 221px 524px 169px 0;
@@ -44,52 +56,83 @@ body {
     margin-bottom: 22px;   
 
 }
+.menubar {
+    text-align : center;
+    box-shadow: 0 10px 10px 0 rgba(61, 23, 23, 0.2);
+  
+    
+}
+ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 25px;
+    text-shadow: 2px 2px 8px black;
+    
+}
 
+li a {
+    text-align: center;
+    text-decoration: none; 
+    color:white;  
+
+}
+
+.menubar a:hover {
+    background-color:#1749BC;
+    color: white;
+    text-shadow: 12px #f88bbe;
+}
 #abfeatpic {
     background-image: url('picprot.jpg');
     background-position: top;
     padding: 221px 524px 169px 0;   
-
 }
-.menubar {
-    text-align : center;
+#gallery {
+    margin:0 auto;
+   width: 90%; 
+   padding-bottom:9px;     
 }
-li {
-    display: inline;
-    margin-right: 10px;
-}
-#sitlink {
-    text-align: center;
-
-    
-}
-a {
-    text-align: center;
-}
-
-#picrow1 { 
-    display:block;   
-    
-}
-#picrow2 {  
-    display: block;  
-     
-}
-footer {
-    text-align:center;
-}
-
 .allgal img {
     width: 100%;    
-    height: 400px;  
-      
+    height: 400px;        
 }
 .allgal {
     float: left;
-    width: 420px;  
-    margin: 0 4px 10px 0; 
-    padding-bottom: 23px; 
+    width: 30%;     
+    padding: 10px; 
+}
+#foot {
+    position:absolute;
+    bottom:-190%;      
+}
+#foothob {
+    position:absolute;
+    bottom:-180%;     
+}
+#footab {
+    position: absolute;
+    bottom: -10%; 
+    
+}
+
+footer {    
+    background-color: black;
+    color: #A8A6DD;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+#sitlink {
+    position:absolute;
+    bottom: -175%;
+    left: 45%;    
+    text-align: center;      
+    background-color: black;      
 }
 .desc {
-    text-align: center;    
+    text-align: center; 
+    padding:-12px;  
+    color: #e1e0e9; 
+    box-shadow: 0 12px 12px 0 rgba(8, 8, 8, 0.2);
 }
+
