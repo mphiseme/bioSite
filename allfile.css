@@ -20,6 +20,7 @@ h2 {
 p{
     font-family:'Playfair Display', serif;
     color:#e6e6de;
+    font-size: 20px;
 
 }
 #biosect{
@@ -46,15 +47,25 @@ body {
 }
 #hmfeatpic {
     background-image: url('skydiving3.JPG');
-    padding: 221px 524px 169px 0;
+    padding: 300px 0px 320px 0;
     background-position: bottom;
+   background-position:center;
 }
 #hobfeatpic{
     background-image: url('lit1.jpg');
     background-position: top;
-    padding: 221px 524px 169px 0; 
+    padding: 310px 0 310px 0; 
     margin-bottom: 22px;   
 
+}
+#abfeatpic {
+    background-image: url('picprot.jpg');
+    background-position: top;
+    padding: 300px 0 300px 0; 
+    background-attachment: fixed;
+    background-color:#f4f3f1;
+
+    background-size:contain;  
 }
 .menubar {
     text-align : center;
@@ -76,17 +87,12 @@ li a {
     color:white;  
 
 }
-
 .menubar a:hover {
     background-color:#1749BC;
     color: white;
     text-shadow: 12px #f88bbe;
 }
-#abfeatpic {
-    background-image: url('picprot.jpg');
-    background-position: top;
-    padding: 221px 524px 169px 0;   
-}
+
 #gallery {
     margin:0 auto;
    width: 90%; 
@@ -103,11 +109,11 @@ li a {
 }
 #foot {
     position:absolute;
-    bottom:-190%;      
+    bottom:-130%;      
 }
 #foothob {
     position:absolute;
-    bottom:-180%;     
+    bottom:-125%;     
 }
 #footab {
     position: absolute;
@@ -124,15 +130,26 @@ footer {
 }
 #sitlink {
     position:absolute;
-    bottom: -175%;
+    bottom: -115%;
     left: 45%;    
     text-align: center;      
-    background-color: black;      
+    background-color: rgba(221, 219, 206, 0.308);      
+}
+#sitlink a{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(241, 241, 232);
+    padding:12px;
+}
+#sitlink a:hover {
+    text-decoration: underline;
+    color: rgb(240, 20, 20);
+    text-shadow: 1px 1px 1px black;
 }
 .desc {
     text-align: center; 
     padding:-12px;  
-    color: #e1e0e9; 
+    color: #f0eff5; 
     box-shadow: 0 12px 12px 0 rgba(8, 8, 8, 0.2);
 }
 
